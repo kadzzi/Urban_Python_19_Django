@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Parent</title>
+</head>
+<body>
+    <pagename>
+        {% block pagename %}
+
+        {% endblock %}
+    </pagename>
+
+    <menu>
+        {% block menu %}
+            <a href="/">Главная</a><br />
+            <a href="/store/">Магазин</a><br />
+            <a href="/shopping_cart/">Корзина</a><br />
+            <a href="/html_sign_up/">Регистрация (html form)</a><br />
+            <a href="/django_sign_up/">Регистрация (django form)</a><br />
+        {% endblock %}
+    </menu>
+
+    <content>
+        {% block content %}
+
+        {% endblock %}
+    </content>
+
+</body>
+</html>

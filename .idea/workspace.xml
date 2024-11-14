@@ -4,10 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fe00adfd-6564-46d9-a36e-a0313adb1fad" name="Changes" comment="">
+    <list default="true" id="fe00adfd-6564-46d9-a36e-a0313adb1fad" name="Changes" comment="task2">
+      <change afterPath="$PROJECT_DIR$/UrbanDjango2/task1/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UrbanDjango2/templates/19_Game_shop/0_mp_template.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UrbanDjango2/templates/19_Game_shop/cart_page_template.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UrbanDjango2/templates/19_Game_shop/menu.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UrbanDjango2/templates/19_Game_shop/registration_page.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UrbanDjango2/templates/19_Game_shop/store_page_template.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UrbanDjango2/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/UrbanDjango2/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UrbanDjango2/UrbanDjango2/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/UrbanDjango2/UrbanDjango2/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UrbanDjango2/task1/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/UrbanDjango2/task1/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,18 +24,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "kadzzi"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;kadzzi&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/kadzzi/Urban_Python_19_Django.git",
-    "accountId": "f628b9e4-794d-4771-8b38-e59d41fb0d5f"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/kadzzi/Urban_Python_19_Django.git&quot;,
+    &quot;accountId&quot;: &quot;f628b9e4-794d-4771-8b38-e59d41fb0d5f&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
 }</component>
@@ -38,13 +45,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/Dmitry/PycharmProjects/Urban_Python_19_Django/UrbanDjango2/task1",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Dmitry\PycharmProjects\Urban_Python_19_Django\UrbanDjango2\task1" />
+      <recent name="C:\Users\Dmitry\PycharmProjects\Urban_Python_19_Django\UrbanDjango2\templates\19_Game_shop" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -61,6 +75,19 @@
       <option name="presentableId" value="Default" />
       <updated>1731265156245</updated>
     </task>
+    <task id="LOCAL-00001" summary="task2">
+      <option name="closed" value="true" />
+      <created>1731454577916</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1731454577916</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="task2" />
+    <option name="LAST_COMMIT_MESSAGE" value="task2" />
   </component>
 </project>

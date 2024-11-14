@@ -1,0 +1,13 @@
+{% extends "19_Game_shop/menu.html" %}
+
+{% block pagename %}
+    <h1>Корзина</h1>
+{% endblock %}
+
+{% block menu %}
+    {{ block.super }}
+{% endblock %}
+
+{% block content %}
+    <h2><effects title="Не выбрано ни одной игры">Извините, ваша крзина пуста</effects></h2>
+{% endblock %}

@@ -1,0 +1,39 @@
+{% extends "19_Game_shop/menu.html" %}
+
+{% block pagename %}
+    <H2>Регистрация нового пользователя</H2>
+{% endblock %}
+
+{% block menu %}
+    {{ block.super }}
+{% endblock %}
+
+{% block content %}
+    {% if error %}
+        <h5>{{error}}</h5>
+    {% endif %}
+
+    <form method="POST">
+        {% csrf_token %}
+
+        {% if form %}
+            {{form}}
+        {% else %}
+            <label for="username">Введите логин</label>
+            <input type="text" id="username" name="username" maxlength="30" required><br />
+            <label for="password">Введите пароль</label>
+            <input type="text" id="password" name="password" minlength="8" required><br />
+            <label for="repeat_password">Повторите пароль</label>
+            <input type="text" id="repeat_password" name="repeat_password" minlength="8" required><br />
+            <label for="age">Введите свой возраст</label>
+            <input type="text" id="age" name="age" maxlength="3" required><br />
+        {% endif %}
+
+        <button type="submit">Отправить</button>
+    </form>
+
+    {% if success %}
+        <h3>{{success}}</h3>
+    {% endif %}
+
+{% endblock %}
